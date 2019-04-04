@@ -10,7 +10,7 @@ class HeaderMessage extends React.Component {
                     <img src={auteur.avatar} alt= "Avatar" />
                     {auteur.nom}
                 </div>
-                <div classname= "HeaderMessage__date-publication" >
+                <div className= "HeaderMessage__date-publication" >
                     {new Date(datePublication).toLocaleString()}
                 </div>
             </div>
